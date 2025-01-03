@@ -8,6 +8,10 @@ This repository contains resources related to various `issues` I encountered as 
 
 ## Issues
 
+|         | Description                                                                        | Quick Access                                              |
+|---------|------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| Issue 1 | The collector pod is unable to process log files due to too many files being open. | [Click Here](./issues/issue1-openshift-logging/README.md) |
+
 Work in progress...
 
 ## Sharing
