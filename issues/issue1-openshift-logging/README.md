@@ -10,6 +10,10 @@ Since the `ulimit -n` value is set to `66560`, the number of open log files reac
 
 :mag: **Observation**: In the `/var/log/pods` directory, a folder is created following the format `/var/log/pods/<namespace>_<pod_name>_<pod_uid>/<container_name>/<n>.log`. As long as a POD with the same UID exists, the log files will remain open if they are not processed.
 
+## Diagram
+
+![Issue 1 - Diagram](../assets/issue1.png)
+
 ## Gather Information
 
 To gather relevant information, I created a shell script to fetch different values for better understanding.
